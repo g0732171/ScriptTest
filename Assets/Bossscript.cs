@@ -45,7 +45,6 @@ public class Bossscript: MonoBehaviour
         Boss lastboss = new Boss();
         lastboss.Attack();
         lastboss.Defence(3);
-        int i = lastboss.mp;
         for(int j=lastboss.mp; j>=0;j-=5)
         {
             lastboss.Magic();
